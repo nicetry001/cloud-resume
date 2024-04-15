@@ -11,6 +11,8 @@ jobs:
     - uses: jakejarvis/s3-sync-action@master
       with:
         args: --follow-symlinks --delete --exclude '.git*/*'
+        args: --follow-symlinks --delete --exclude '.gitignore'
+        args: --follow-symlinks --delete --exclude 'README.md'
         #--acl public-read 
       env:
         AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
