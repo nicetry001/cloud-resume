@@ -10,7 +10,7 @@ jobs:
     - uses: actions/checkout@v2
     - uses: jakejarvis/s3-sync-action@master
       with:
-        args: --follow-symlinks --delete --exclude '.gitignore' --exclude 'README.md' --exclude '.git/*'
+        args: --follow-symlinks --delete --exclude '.gitignore' --exclude 'README.md' --exclude '.git*'
         #--acl public-read 
       env:
         AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
