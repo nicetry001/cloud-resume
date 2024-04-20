@@ -37,6 +37,8 @@ Tech Stack
 - SSL/TLS
 - Lambda for Python Script to Count Visitors
 - DynamoDB
+- API Gateway
+- CORS (Access-Control-Allow-Origin)
 - Terraform(SOON)
 
 
