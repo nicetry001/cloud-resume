@@ -51,7 +51,7 @@ async function updateCounter() {
         const data = await response.json();
 
         // Log the data to the console to verify its structure
-        // console.log("Fetched data:", data);
+        console.log("Fetched data:", data);
 
         // Extract the desired field from the data (e.g., 'views')
         // Change the key name as needed, or use data directly if it's a number
