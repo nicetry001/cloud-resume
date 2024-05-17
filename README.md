@@ -18,10 +18,6 @@
 - API Gateway using CORS
 - DynamoDB to Store Views Count
 
-### Pending
-
-- Terraform for Infrastructure Deployment
-
 
 Tech Stack
 
