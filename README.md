@@ -1,5 +1,5 @@
 # My Own Cloud Resume
-# DEMO - https://ar-w.info/
+# DEMO - https://winai.cc/
 
 ## Architecture
 
